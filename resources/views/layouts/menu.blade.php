@@ -1,53 +1,12 @@
 <div class="header header-2">
-    <div class="top-header">
-        <div class="container">
-            <div class="row no-gutters justify-content-between align-items-center">
-                <div class="col-xl-6 col-lg-6 col-sm-8">
-                    <div class="top-left">
-                        <ul>
-                            <li>
-                                <i class="flaticon-black-back-closed-envelope-shape"></i>
-                                <span>
-                                    <a href="mailto:info@shwelannhpwint.com">
-                                        info@shwelannhpwint.com
-                                    </a>
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i>
-                                <span>
-                                    <a href="tel:+951 640281">
-                                        +951 640281,
-                                    </a>
-                                    <a href="tel:+959 940940707">
-                                        +959 940940707
-                                    </a>
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-sm-4 d-flex justify-content-sm-end justify-content-center">
-                    <div class="top-right">
-                        <a href="https://www.facebook.com/profile.php?id=100070042839103" target="_blank"
-                            class="fb"><i class="flaticon-facebook-app-symbol"></i></a>
-                        <a href="#" class="tw"><i class="flaticon-twitter"></i></a>
-                        <a href="#" class="ld"><i class="flaticon-linkedin"></i></a>
-                        <a href="#" class="pin"><i class="flaticon-pinterest"></i></a>
-                        <a href="#" class="sp"><i class="flaticon-skype-logo"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="bottom-header">
+    <div class="bottom-header" style="background-color: #010101;">
         <div class="container">
             <div class="row" style="width: 1800px;">
 
                 <div class="col-xl-2 col-lg-2 d-xl-flex d-lg-flex d-none align-items-center">
                     <div class="logo">
                         <a href="{{ route('welcome') }}">
-                            <img src="{{ asset('assets/images/logo1.png') }}" alt="LOGO" style="height:100px;">
+                            <img src="{{ asset('data/logo.jpg') }}" alt="LOGO" style="height:100px;">
                         </a>
                     </div>
                 </div>
@@ -67,7 +26,7 @@
 
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('welcome') }}"
-                                        style="font-size:16px; font-weight: 700; color:#02365A;">
+                                        style="font-size:16px; font-weight: 700; color:#FFFEF5;">
                                         Home
                                     </a>
                                 </li>
@@ -75,7 +34,7 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" id="serviceDropdown" role="button"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                        style="font-size:16px;  font-weight:700; color:#02365A;">
+                                        style="font-size:16px;  font-weight:700; color:#FFFEF5;">
                                         About Us
                                     </a>
 
@@ -89,20 +48,14 @@
 
                                         <li>
                                             <a class="dropdown-item" href="{{ route('ceomessage.index') }}">
-                                                Message From
-                                                CEO
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item" href="{{ route('overview.index') }}">
-                                                Company
-                                                Overview
+                                                Message From CEO
                                             </a>
                                         </li>
 
                                         <li hidden>
-                                            <a class="dropdown-item" href="">Brochure </a>
+                                            <a class="dropdown-item" href="{{ route('overview.index') }}">
+                                                Company Overview
+                                            </a>
                                         </li>
 
                                         <li>
@@ -128,7 +81,7 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" id="serviceDropdown" role="button"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                        style="font-size:16px;  font-weight:700; color:#02365A;">
+                                        style="font-size:16px;  font-weight:700; color:#FFFEF5;">
                                         Our Services
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="serviceDropdown">
@@ -143,15 +96,10 @@
                                     </ul>
                                 </li>
 
-                                <li class="nav-item dropdown"><a class="nav-link"
-                                        href="{{ route('recruitment.index') }}"
-                                        style="font-size:16px;  font-weight:700; color:#02365A;">
-                                        Our Recruitment Activities
-                                    </a>
-                                </li>
 
-                                <li class="nav-item dropdown"><a class="nav-link" href="{{ route('clients.index') }}"
-                                        style="font-size:16px;  font-weight:700; color:#02365A;">
+                                <li class="nav-item" hidden>
+                                    <a class="nav-link" href="{{ route('clients.index') }}"
+                                        style="font-size:16px;  font-weight:700; color:#FFFEF5;">
                                         Our Client Lists
                                     </a>
                                 </li>
@@ -159,21 +107,33 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" id="blogDropdown" role="button"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                        style="font-size:16px;  font-weight:700; color:#02365A;">
+                                        style="font-size:16px;  font-weight:700; color:#FFFEF5;">
                                         Job Seekers
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="blogDropdown">
                                         <li>
-                                            <a class="dropdown-item" href="{{ route('cv.index') }}">Submit CV</a>
+                                            <a class="dropdown-item" href="{{ route('cv.index') }}">
+                                                Submit CV
+                                            </a>
                                         </li>
-                                        <li><a class="dropdown-item" href="{{ route('employer.index') }}">Employer
-                                                Form</a></li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('employer.index') }}">
+                                                Employer Form
+                                            </a>
+                                        </li>
                                     </ul>
+                                </li>
+
+                                <li class="nav-item dropdown"><a class="nav-link"
+                                        href="{{ route('recruitment.index') }}"
+                                        style="font-size:16px;  font-weight:700; color:#FFFEF5;">
+                                        Company Activities
+                                    </a>
                                 </li>
 
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('contact.index') }}"
-                                        style="font-size:16px;  font-weight:700; color:#02365A;">
+                                        style="font-size:16px;  font-weight:700; color:#FFFEF5;">
                                         Contact Us
                                     </a>
                                 </li>

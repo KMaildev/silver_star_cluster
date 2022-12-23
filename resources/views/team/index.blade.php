@@ -12,11 +12,8 @@
                                 <div class="single-box">
                                     <div class="part-img">
                                         <img src="{{ asset('assets/images/t10.jpg') }}" alt="image">
-
-
                                     </div>
                                     <div class="part-txt">
-
                                         <div class="star">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
