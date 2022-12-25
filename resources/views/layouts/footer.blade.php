@@ -7,14 +7,21 @@
                         <h3>Contact Now!</h3>
 
                         <ul>
-                            <li><span><i class="flaticon-placeholder"></i></span>No.511/B, 5th Street (South), East
-                                Gyogone Ward, Insein Tsp, Yangon.</li>
-                            <li><span><i class="flaticon-phone-call"></i></span>+951 640281, +959 940940707, +959
-                                448013373, +959 798936300</li>
-                            <li><span><i class="flaticon-placeholder"></i></span>No.52/8. Pan Road. Silom. Bangkok.
-                                Thailand. </li>
-
-                            <li><span><i class="flaticon-phone-call"></i></span> +66 839566199</li>
+                            <li>
+                                <span><i class="flaticon-placeholder"></i></span>
+                                MYA KHAY MAR 4 TH STREET, NO.432-434 EAST DAGON, YANGON, MYANMAR
+                            </li>
+                        
+                            <li>
+                                <span>
+                                    <i class="fa-light fa-envelope"></i>
+                                </span>
+                                info@silverstarcluster.com
+                            </li>
+                            <li>
+                                <span><i class="flaticon-phone-call"></i></span>
+                                +959 788 121296
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -30,21 +37,21 @@
                             </li>
 
                             <li>
-                                <a class="dropdown-item" href="{{ route('company.index') }}">
+                                <a class="nav-link href="{{ route('company.index') }}">
                                     <i class="flaticon-enter"></i>
                                     Vision, Mission & Values
                                 </a>
                             </li>
 
                             <li>
-                                <a class="dropdown-item" href="{{ route('team.index') }}">
+                                <a class="nav-link href="{{ route('team.index') }}">
                                     <i class="flaticon-enter"></i>
                                     Our Team Members
                                 </a>
                             </li>
 
                             <li>
-                                <a class="dropdown-item" href="{{ route('organization.index') }}">
+                                <a class="nav-link href="{{ route('organization.index') }}">
                                     <i class="flaticon-enter"></i>
                                     Our Organization Chart
                                 </a>
@@ -61,17 +68,17 @@
                             src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=210045094312905&autoLogAppEvents=1"
                             nonce="PosYNXjc"></script>
 
-                        <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100070042839103"
+                        <div class="fb-page" data-href="https://www.facebook.com/silverstarcluster"
                             data-tabs="timeline" data-width="" data-height="200" data-small-header="false"
                             data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-                            <blockquote cite="https://www.facebook.com/profile.php?id=100070042839103"
+                            <blockquote cite="https://www.facebook.com/silverstarcluster"
                                 class="fb-xfbml-parse-ignore"><a
-                                    href="https://www.facebook.com/profile.php?id=100070042839103">Facebook</a>
+                                    href="https://www.facebook.com/silverstarcluster">Facebook</a>
                             </blockquote>
                         </div>
                         <br><br><br>
                         <div class="social">
-                            <a href="https://www.facebook.com/profile.php?id=100070042839103" target="_blank"
+                            <a href="https://www.facebook.com/silverstarcluster" target="_blank"
                                 class="fb"><i class="flaticon-facebook-app-symbol"></i></a>
                             <a href="#" class="tw"><i class="flaticon-twitter"></i></a>
                             <a href="#" class="ld"><i class="flaticon-linkedin"></i></a>

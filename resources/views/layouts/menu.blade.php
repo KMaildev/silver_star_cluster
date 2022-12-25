@@ -64,7 +64,7 @@
                                             </a>
                                         </li>
 
-                                        <li>
+                                        <li hidden>
                                             <a class="dropdown-item" href="{{ route('team.index') }}">
                                                 Our Team Members
                                             </a>
@@ -93,6 +93,46 @@
                                                 </a>
                                             </li>
                                         @endforeach
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" id="blogDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        style="font-size:16px;  font-weight:700; color:#FFFEF5;">
+                                        Training
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+                                        <li>
+                                            <a class="dropdown-item" style="font-size: 14px;"
+                                                href="{{ route('training', 'English') }}">
+                                                English Language Training
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" style="font-size: 14px;"
+                                                href="{{ route('training', 'Malay') }}">
+                                                Malay Language Training
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" style="font-size: 14px;"
+                                                href="{{ route('training', 'Chinese') }}">
+                                                Chinese Language Training
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" style="font-size: 14px;"
+                                                href="{{ route('training', 'JobDescriptionTraining') }}">
+                                                Job Description Training
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" style="font-size: 14px;"
+                                                href="{{ route('training', 'GeneralInterview') }}">
+                                                General Interview <br> Knowledge and Training
+                                            </a>
+                                        </li>
                                     </ul>
                                 </li>
 

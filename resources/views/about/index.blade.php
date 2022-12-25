@@ -35,7 +35,7 @@
                             agency in Myanmar
                             established in 2022.
                             It has expanded the services to meet the needs of clients and candidates.
-                            The main objective of Shwe Lann Hpwint is to create global job opportunities so that they can
+                            The main objective of SILVER STAR CLUSTER is to create global job opportunities so that they can
                             contribute in the national economy and become seld dependent.
                             And this is the point for which we work for skilled, semi skilled and unskilled job seekers and
                             also ensure experienced employment that meets the skills set requirements and fit into the

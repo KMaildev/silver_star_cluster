@@ -14,6 +14,7 @@ use App\Http\Controllers\OverseasJobsController;
 use App\Http\Controllers\RecruitmentController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TeamController;
+use App\Http\Controllers\TrainingController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -27,6 +28,7 @@ Route::get('team', [TeamController::class, 'index'])->name('team.index');
 Route::get('recruitment', [RecruitmentController::class, 'index'])->name('recruitment.index');
 Route::get('service', [ServiceController::class, 'index'])->name('service');
 Route::get('clients', [ClientsController::class, 'index'])->name('clients.index');
+Route::get('training/{type}', [TrainingController::class, 'index'])->name('training');
 
 Route::resource('contact', ContactController::class);
 Route::resource('cv', CvController::class);
